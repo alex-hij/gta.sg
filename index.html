@@ -131,6 +131,19 @@
             }
         }
     </style>
+
+    <script type="text/javascript">
+    (function(w, d, s, i) {
+        var script = d.createElement(s);
+        script.async = true;
+        script.src = "//widget.simplybook.asia/v2/widget/widget.js";
+        script.onload = function() {
+            new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/jurong.simplybook.asia","theme":"skittish","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#49306b","display_item_mode":"block","body_bg_color":"#fffaf5","sb_review_image":"","dark_font_color":"#474747","light_font_color":"#ffffff","btn_color_1":"#c98e5a","sb_company_label_color":"#372515","hide_img_mode":"0","sb_busy":"#c7b3b3","sb_available":"#d6ebff"},"timeline":"modern_week","datepicker":"top_calendar","is_rtl":false,"app_config":{"clear_session":0,"allow_switch_to_ada":0,"predefined":[]},"container_id":"sbw_kirevm"});
+        };
+        d.head.appendChild(script);
+    })(window, document, 'script', 'sbw_kirevm');
+</script>
+
 </head>
 <body>
     <!-- Header Section -->
@@ -151,7 +164,9 @@
         <h2>Excel in Singapore's Education System</h2>
         <p>Tailored lessons for local and international students to achieve academic success</p>
     </section>
-
+    <section id="booknow" class="booknow">
+<div id="sbw_kirevm"></div>
+    </section>
     <!-- About Section -->
     <section id="about" class="about">
        <h2>About Alex Tan - Lead Tutor</h2>

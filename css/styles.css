@@ -78,7 +78,9 @@ nav a:hover {
     background: white;
     text-align: center;
 }
-
+.comingsoon {
+    color: rgba(133, 133, 133, 0.541);
+}
 .resources p {
     font-size: 1.1rem;
     margin-bottom: 1rem;

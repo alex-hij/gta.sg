@@ -56,12 +56,14 @@ nav a:hover {
     background-image: url("../image/2024_class_photo.png");
     background-size: cover;
     background-position: center;
-    color: burlywood;
+    color: rgb(238, 225, 208);
     padding: 8rem 2rem;
     background-position-y: 30%;
     text-align: center;
 }
-
+.hero2 {
+    padding: 2rem 2rem;
+}
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -69,6 +71,17 @@ nav a:hover {
 
 .hero p {
     font-size: 1.2rem;
+}
+/* resources section */
+.resources {
+    padding: 3rem 2rem;
+    background: white;
+    text-align: center;
+}
+
+.resources p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 /* contact section */

@@ -81,6 +81,10 @@ nav a:hover {
 .comingsoon {
     color: rgba(133, 133, 133, 0.541);
 }
+.logo {
+    width: 150px; /* Adjust size as needed */
+    margin: 20px auto;
+}
 .resources p {
     font-size: 1.1rem;
     margin-bottom: 1rem;

@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #ffcc00;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #333;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    /* background-image: url('https://source.unsplash.com/1600x600/?education,school'); */
+    background-image: url("../image/2024_class_photo.png");
+    background-size: cover;
+    background-position: center;
+    color: burlywood;
+    padding: 8rem 2rem;
+    background-position-y: 30%;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* contact section */
+.contact {
+    padding: 3rem 2rem;
+    background: white;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 3rem 2rem;
+    background: white;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1.5rem;
+    color: #ffcc00;
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}

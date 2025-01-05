@@ -126,24 +126,24 @@ nav a:hover {
     margin: 1rem 0;
 }
 /* why Section */
-.why {
+.why, .testimonial {
     padding: 3rem 2rem;
     background: white;
     text-align: center;
 }
 
-.why h2 {
+.why h2, .testimonial  h2 {
     margin-bottom: 1.5rem;
     color: #ffcc00;
     font-size: 2rem;
 }
 
-.why p {
+.why p, .testimonial  p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 
-.why img {
+.why img, .testimonial  img {
     max-width: 150px;
     border-radius: 50%;
     margin: 1rem 0;

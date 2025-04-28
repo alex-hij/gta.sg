@@ -41,6 +41,8 @@
         })(window, document, 'script', 'dataLayer', 'GTM-MWKZMVZ2');</script>
     <!-- End Google Tag Manager -->
 
+    <script async src="https://js.stripe.com/v3/buy-button.js">
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT504NNWBR"></script>
     <script>
@@ -52,7 +54,7 @@
     </script>
 
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="rjTycnjZfu6Hd7w3IfGfhA" defer="true"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         (function (w, d, s, i) {
             var script = d.createElement(s);
             script.async = true;
@@ -62,7 +64,7 @@
             };
             d.head.appendChild(script);
         })(window, document, 'script', 'sbw_kirevm');
-    </script>
+    </script> -->
     <script src="js/hamburger-menu.js" defer></script>
     <!-- Event snippet for Purchase conversion page
     In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
@@ -115,8 +117,34 @@
         <p>Tailored lessons for local and international students</p>
     </section>
     <section id="booknow" class="booknow">
-        <div id="sbw_kirevm"></div>
+        <!-- ffde85 14ff5b -->
+        <div class="card-container">
+        <stripe-buy-button buy-button-id="buy_btn_1RIivWFRkd0WOnyCvTfuKbUF"
+            publishable-key="pk_live_51MD7ihFRkd0WOnyCqTcOOSExu2i4QRqtpMyiJ8kSSgR6ArQOs6mav7XuQq0onkkXw0c0TncymGkPWE0aMwJMpWcg003Tj1XLkH">
+        </stripe-buy-button>
+
+        <stripe-buy-button buy-button-id="buy_btn_1RIj3RFRkd0WOnyCaXX9tjEp"
+            publishable-key="pk_live_51MD7ihFRkd0WOnyCqTcOOSExu2i4QRqtpMyiJ8kSSgR6ArQOs6mav7XuQq0onkkXw0c0TncymGkPWE0aMwJMpWcg003Tj1XLkH">
+        </stripe-buy-button>
+        </div>
     </section>
+
+    <style>
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 100px;
+            padding: 50px 0;
+        }
+        
+        .card-container stripe-buy-button {
+            /* flex: 1 1 320px; */
+            max-width: 380px;
+            min-width: 280px;
+        }
+        </style>
+        
     <!-- About Section -->
     <section id="about" class="about">
         <h2>About us </h2>

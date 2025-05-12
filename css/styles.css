@@ -330,3 +330,41 @@ footer a:hover {
         flex-direction: column;
     }
 }
+
+.resource-highlight {
+    background-color: #f9f9ff;
+    border: 1px solid #e0e4ff;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 40px auto;
+    max-width: 800px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.resource-highlight p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.resource-highlight ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resource-highlight li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.resource-highlight li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #5271ff;
+    font-weight: bold;
+}

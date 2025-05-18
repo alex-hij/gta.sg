@@ -49,6 +49,7 @@ nav a:hover {
     background-color: #ffcc00;
     color: #333;
 }
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -94,8 +95,12 @@ nav a:hover {
         border-bottom: 1px solid #444;
     }
 }
+
 /* article */
-article, .about, .why, .testimonial {
+article,
+.about,
+.why,
+.testimonial {
     max-width: 800px;
     width: 90%;
     margin: 0 auto;
@@ -106,7 +111,11 @@ article, .about, .why, .testimonial {
 
 /* Desktop and Landscape Tablet View */
 @media screen and (min-width: 1024px) {
-    article, .about, .why, .testimonial {
+
+    article,
+    .about,
+    .why,
+    .testimonial {
         max-width: 800px;
         width: 70%;
         margin: 0 auto;
@@ -116,14 +125,21 @@ article, .about, .why, .testimonial {
 
 /* Mobile and Portrait View */
 @media screen and (max-width: 1023px) {
-    article, .about, .why, .testimonial {
+
+    article,
+    .about,
+    .why,
+    .testimonial {
         width: 100%;
         padding: 15px;
     }
 }
 
 /* Typography and Readability */
-article p, .about p, .why p, .testimonial p {
+article p,
+.about p,
+.why p,
+.testimonial p {
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
@@ -135,8 +151,8 @@ article p, .about p, .why p, .testimonial p {
 
 article h1 {
     text-align: center;
-    margin-bottom: 30px; 
-    color: #9e7e00; 
+    margin-bottom: 30px;
+    color: #9e7e00;
 }
 
 /* Hero Section */
@@ -150,9 +166,11 @@ article h1 {
     background-position-y: 30%;
     text-align: center;
 }
+
 .hero2 {
     padding: 2rem 2rem;
 }
+
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -161,19 +179,24 @@ article h1 {
 .hero p {
     font-size: 1.2rem;
 }
+
 /* resources section */
 .resources {
     padding: 3rem 2rem;
     background: white;
     text-align: center;
 }
+
 .comingsoon {
     color: rgba(133, 133, 133, 0.541);
 }
+
 .logo {
-    width: 150px; /* Adjust size as needed */
+    width: 150px;
+    /* Adjust size as needed */
     margin: 20px auto;
 }
+
 .resources p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
@@ -190,15 +213,18 @@ article h1 {
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
+
 .contact h2 {
     margin-bottom: 1.5rem;
     color: #e6b800;
     font-size: 2rem;
 }
+
 .contact img {
     padding: 0%;
     margin: 0%;
 }
+
 /* About Section */
 /* .about {
     padding: 3rem 2rem;
@@ -212,6 +238,7 @@ article h1 {
     color: #e6b800;
     font-size: 2rem;
 }
+
 .about h3 {
     margin-bottom: .5rem;
     text-align: center;
@@ -229,25 +256,30 @@ article h1 {
     border-radius: 50%;
     margin: 1rem 0;
 }
+
 /* why Section */
-.why, .testimonial {
+.why,
+.testimonial {
     padding: 3rem 2rem;
     background: white;
     text-align: center;
 }
 
-.why h2, .testimonial  h2 {
+.why h2,
+.testimonial h2 {
     margin-bottom: 1.5rem;
     color: #e6b800;
     font-size: 2rem;
 }
 
-.why p, .testimonial  p {
+.why p,
+.testimonial p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 
-.why img, .testimonial  img {
+.why img,
+.testimonial img {
     max-width: 150px;
     border-radius: 50%;
     margin: 1rem 0;
@@ -260,7 +292,7 @@ article h1 {
 }
 
 .testimonials h2 {
-    
+
     margin-bottom: 1.5rem;
     color: #e6b800;
     font-size: 2rem;
@@ -367,4 +399,100 @@ footer a:hover {
     left: 0;
     color: #5271ff;
     font-weight: bold;
+}
+
+/* Golden Tuition Academy features list styling */
+.gta-features-list {
+    list-style: none;
+    /* Remove default bullets */
+    padding-left: 0;
+    /* Remove default padding */
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.gta-features-list li {
+    position: relative;
+    padding-left: 30px;
+    /* Space for custom bullet */
+    margin-bottom: 1rem;
+    /* Space between items */
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.gta-features-list li:before {
+    content: "•";
+    /* Custom bullet character */
+    position: absolute;
+    left: 0;
+    color: #0066cc;
+    /* Bullet color - adjust to match your branding */
+    font-size: 1.5rem;
+    /* Larger bullet */
+    line-height: 1.2;
+}
+
+/* Hover effect */
+.gta-features-list li:hover {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
+
+/* For better readability */
+.gta-features-list li:last-child {
+    margin-bottom: 0;
+    /* No margin for last item */
+}
+
+
+/* Advertisement Panel for Free Resources */
+.resources-ad {
+    max-width: 800px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fffbf0;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resources-ad h3 {
+    color: #9e7e00;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.resources-ad p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 5px;
+}
+
+.download-button:hover {
+    background-color: #e6b800;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1023px) {
+    .resources-ad {
+        width: 100%;
+        padding: 15px;
+    }
 }
